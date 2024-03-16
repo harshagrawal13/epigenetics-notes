@@ -50,7 +50,7 @@
 
 \tableofcontents
 \newpage
-\section{Genetics}
+\section{Structure and Organization of DNA}
 \subsection{Structure of DNA}
 We begin our discussion by first establishing the basics of genetics which is the study of genes, and heredity. As we know, genetic information is captured in the form of DNA which is present in all cells of the body.
 
@@ -245,6 +245,58 @@ Histone marks distinguish between repressed and permissive states. For example, 
 		\end{itemize}
 	}%
 }
+
+\newpage
+\section{RNA Transcription}
+\subsection{Transcription process}
+The transcription of gene (DNA $\rightarrow$ RNA) is carried out in three stages: initiation, elongation, and termination.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/transc_new.png}
+	\caption{Image showing transcription. Source: \url{https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/eukaryotic-pre-mrna-processing}}\label{fig:transcription}
+\end{figure}
+\subsubsection*{Initiation}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/recognition_site.png}
+	\caption{Image showing the TATA Box. Source: \url{https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/eukaryotic-pre-mrna-processing}}\label{fig:TATABOX}
+\end{figure}
+\begin{itemize}
+	\item The enzyme responsible for the conversion of DNA to RNA is called \textbf{RNA Polymerase}. binds to a region of the DNA (in the 5' end) called the \textbf{promotor region}. The promotor region is a sequence of DNA that signals the start of the gene.
+	\item The site on the DNA from which the first RNA nucleotide is transcribed is called the +1 site, or the \textbf{initiation site}. Nucleotides that come before the initiation site are given negative numbers and said to be upstream. Nucleotides that come after the initiation site are marked with positive numbers and said to be downstream\footnote{Sentence taken directly from: https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/stages-of-transcription}.
+	\item In eukaryotes, this promoter sequence consists of a region called the \textbf{TATA box} (figure~\ref{fig:TATABOX}) which consists of A, T repeats\footnote{Identified in 1978 and is found in $\sim$30\% of human gene promoters} and is found 25bp upstream of the transcription site.
+	      The TATA box is recognized by \textbf{TATA binding protein} (TBP) that is essential to forming the preinitiation complex which then recruits the RNA polymerase to attach and start transcription.
+	\item In Cancer, the TATA box is often found to be mutated. In case of Tumor Suppressor Genes, the TATA box is mutated for reduced TBP binding $\longrightarrow$ reduced transcription of Tumor Suppressor Genes $\longrightarrow$ decreased suppression of cancer cells $\longrightarrow$ higher cancer malignancy. In case of Oncogenes, the TATA box might be mutated to increase TBP binding thus promoting the transcription of the oncogenes.
+	\item The DNA strand that runs from 5' $\rightarrow$ 3' is called the \textbf{coding strand} or the \textbf{sense} strand. This strand isn't used for transcription. The antiparallel strand (that runs from 3' $\rightarrow$ 5') is called the \textbf{template strand} or the \textbf{anti-sense strand} and is used for transcription.
+\end{itemize}
+
+\subsubsection*{Elongation, Termination, and Post-Processing}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/splicing.png}
+	\caption{Image showing Splicing of RNA transcript to mRNA. Source: \url{https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/eukaryotic-pre-mrna-processing}}\label{fig:splicing}
+\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/alternative_splicing.png}
+	\caption{Image showing Alternative Splicing to create different mature mRNA transcripts. Source: \url{https://www.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/eukaryotic-pre-mrna-processing}}\label{fig:alternative_splicing}
+\end{figure}
+\begin{itemize}
+	\item The process of Elongation is the extension of the newly synthesized RNA strand. The RNA polymerase moves along the DNA template strand and adds nucleotides to the 3' end of the RNA strand. The RNA polymerase, unlike DNA polymerase, doesn't require a primer to start the elongation process.
+	\item The synthesized RNA strand is complementary to the anti-sense strand is thus identical to the sense strand (except for the Uracil base switch in place of Thymine).
+	\item This RNA transcript is then processed by the following the addition of a 5' cap and a 3' poly-A tail. This is added to prevent RNA from being degraded.
+	\item It's followed by splicing the RNA to remove introns and join exons to form the mature mRNA (figure~\ref{fig:splicing}). Every 5' splice site on an intron usually starts `GT' whereas the 3' splice site ends with `AG'.
+	\item The region of the transcript that codes for the protein is called the \textbf{Open Reading Frame (ORF)}. The rest of the transcript is called the \textbf{Untranslated Region (UTRs)}\footnote{Start codon of the ORF is usually `ATG' whereas the stop codon is usually `TAA' / `TAG'.}.
+	\item Initially, it was presumed that humans had $sim$ 100,000 genes. However, it was later found that humans only have 20,000 but the number of proteins coded by these genes is 100,000. This was found to be due to \textbf{Alternative Splicing} (figure~\ref{fig:alternative_splicing}) where different exons are joined together to form different mature mRNA transcripts.
+	\item It's estimated that $sim 60\%$ of the genes in the human genome have multiple splice variants, thus coding for slightly different proteins.
+\end{itemize}
+\begin{itemize}
+	\item \textbf{5' Promoter Region}: This is the region where relevant proteins such as RNA polymerase and transcription factors bind to initiate transcription of that gene.
+	\item \textbf{3' Poly-A Tail}: This is a sequence of Adenine bases added to the 3' end of the RNA transcript. This is important for the stability of the RNA transcript.
+	\item \textbf{Protein Coding Region}: This is the region that comprises of \textbf{introns} and \textbf{exons}. Introns are spliced away and exons are joined together to form the mature mRNA that is translated into a protein\footnote{Whole genome sequencing is quite expensive and in-efficient. Since only the exome codes for proteins, whole exome sequening has proven to be a much more efficient alternative}.
+\end{itemize}
+
+Introns comprise of over 99\% of the entire genome (not translated to proteins). However, around 90\% of observed phenotype-related mutations are found in exons.
 
 \newpage
 \bibliographystyle{plain}
